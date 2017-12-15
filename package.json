@@ -1,0 +1,20 @@
+{
+  "name": "stremio-eztv-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "ThanosDi <thanosdi@live.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "eztv.ag": "^1.1.0",
+    "imdb": "https://github.com/ThanosDi/imdb.git",
+    "lodash": "^4.17.4",
+    "magnet-uri": "^5.1.7",
+    "stremio-addons": "^2.8.13"
+  }
+}
